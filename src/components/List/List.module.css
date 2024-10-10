@@ -1,0 +1,12 @@
+.upperList {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 50px 0;
+}
+.bottomList {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}

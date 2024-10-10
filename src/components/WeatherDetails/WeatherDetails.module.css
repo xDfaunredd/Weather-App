@@ -1,0 +1,98 @@
+.container {
+  width: 780px;
+  height: 330px;
+  background: #d9d9d9;
+  box-shadow: 10px 10px 4px 0 rgba(0, 0, 0, 0.5);
+  padding: 15px 24px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+}
+
+.temperature {
+  font-weight: 700;
+  font-size: 80px;
+}
+.feelsLike {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-weight: 600;
+  font-size: 32px;
+  color: #292929;
+}
+.span {
+  font-size: 20px;
+  color: #292929;
+}
+.sunStateItem {
+  display: flex;
+  gap: 10px;
+}
+.sunStateItemImg {
+}
+.sunStateItemText {
+  font-weight: 700;
+  font-size: 20px;
+  color: #292929;
+}
+.sunStateItemTime {
+  font-weight: 600;
+  font-size: 16px;
+  color: #292929;
+}
+
+.mainImg {
+  width: 200px;
+}
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #292929;
+}
+
+.listOfCurrentData {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 250px;
+}
+.dataItem {
+  width: 120px;
+}
+.dataItemList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.dataImg {
+  width: 60px;
+  height: 60px;
+}
+.dataValue {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #292929;
+}
+.dataDescription {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #292929;
+  display: inline;
+}
